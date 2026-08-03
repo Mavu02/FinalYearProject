@@ -19,4 +19,5 @@ Cloud Services: Firebase (Authentication & Cloud Firestore)
 Proximity & Hardware: Bluetooth Low Energy (flutter_blue_plus) & Camera/Barcode Scanner
 Architecture: Rapid Application Development (RAD) Lifecycle Model
 
+##
 Developed by Maverick Chan as part of a Bachelor of Engineering in Software Engineering (Honours) Final Year Project at Xiamen University Malaysia, supervised by Dr. Geetha Kanaparan.

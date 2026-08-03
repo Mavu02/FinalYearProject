@@ -14,9 +14,13 @@ Mobile Attendance Management System built for tertiary education institutions us
 
 ## Tech Stack & Tools
 -Frontend/Framework: Flutter (Dart)
+
 -Local Database: SQLite (via sqflite)
+
 -Cloud Services: Firebase (Authentication & Cloud Firestore)
+
 -Proximity & Hardware: Bluetooth Low Energy (flutter_blue_plus) & Camera/Barcode Scanner
+
 -Architecture: Rapid Application Development (RAD) Lifecycle Model
 
 ##

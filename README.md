@@ -13,11 +13,11 @@ Mobile Attendance Management System built for tertiary education institutions us
 4. Role-Based Workflows: Custom dashboards for both Lecturers (Session control, QR generation, manual status overrides, filtered search) and Students (QR scanner, attendance stats/percentages).
 
 ## Tech Stack & Tools
-Frontend/Framework: Flutter (Dart)
-Local Database: SQLite (via sqflite)
-Cloud Services: Firebase (Authentication & Cloud Firestore)
-Proximity & Hardware: Bluetooth Low Energy (flutter_blue_plus) & Camera/Barcode Scanner
-Architecture: Rapid Application Development (RAD) Lifecycle Model
+-Frontend/Framework: Flutter (Dart)
+-Local Database: SQLite (via sqflite)
+-Cloud Services: Firebase (Authentication & Cloud Firestore)
+-Proximity & Hardware: Bluetooth Low Energy (flutter_blue_plus) & Camera/Barcode Scanner
+-Architecture: Rapid Application Development (RAD) Lifecycle Model
 
 ##
 Developed by Maverick Chan as part of a Bachelor of Engineering in Software Engineering (Honours) Final Year Project at Xiamen University Malaysia, supervised by Dr. Geetha Kanaparan.

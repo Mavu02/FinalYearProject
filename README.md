@@ -1,17 +1,22 @@
-# fyp
+# Attendance Management System (Bluetooth Low Energy & Dynamic QR)
+Mobile Attendance Management System built for tertiary education institutions using Flutter, SQLite, and Firebase
 
-A new Flutter project.
+## Key Features
+1. Two-Phase Verification Logic
+-Dynamic QR Code Check-In: Lecturers generate a time-sensitive Dynamic QR code that refreshes every 5 seconds to prevent screenshot sharing or off-site check-ins.
+-Continuous Bluetooth Low Energy Proximity Tracking: Implements a cyclic Bluetooth Low Energy (BLE) engine (20-minute cycles: 10 min active / 10 min sleep) where the lecturer's phone acts as a beacon scanner to verify student physical presence and catch early leavers.
 
-## Getting Started
+2. Offline-First Architecture: Using SQLite relational database the application is functional in lecture halls with unstable internet or poor signal coverage.
 
-This project is a starting point for a Flutter application.
+3. Cloud Synchronization: Automatically pushes local attendance logs to Firebase Cloud Firestore once an active network connection is detected.
 
-A few resources to get you started if this is your first Flutter project:
+4. Role-Based Workflows: Custom dashboards for both Lecturers (Session control, QR generation, manual status overrides, filtered search) and Students (QR scanner, attendance stats/percentages).
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tech Stack & Tools
+Frontend/Framework: Flutter (Dart)
+Local Database: SQLite (via sqflite)
+Cloud Services: Firebase (Authentication & Cloud Firestore)
+Proximity & Hardware: Bluetooth Low Energy (flutter_blue_plus) & Camera/Barcode Scanner
+Architecture: Rapid Application Development (RAD) Lifecycle Model
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Developed by Maverick Chan as part of a Bachelor of Engineering in Software Engineering (Honours) Final Year Project at Xiamen University Malaysia, supervised by Dr. Geetha Kanaparan.
